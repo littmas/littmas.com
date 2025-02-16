@@ -1,4 +1,6 @@
-export function Input({ className, ...props }) {
-    return <input className={`border p-2 rounded ${className}`} {...props} />;
-  }
-  
+import React from "react";
+import "../styles.css";
+
+export function Input(props) {
+  return <input className="input" {...props} />;
+}
